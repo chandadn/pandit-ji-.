@@ -1,0 +1,348 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: hsl(0, 0%, 94%);
+    padding: 5px 10px; /* Reduce top and bottom padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; /* Set a fixed height if necessary */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.logo img {
+    width: 80px; /* Reduce logo size */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px; /* Slightly reduce spacing between items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px; /* Optional: Adjust font size for smaller header */
+}
+
+.call-to-action {
+    background-color: rgb(255, 223, 86); /* Bright yellow background */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px; /* Add some padding for spacing */
+    border-radius: 20px; /* Curved edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for better visuals */
+}
+
+.call-to-action a {
+    text-decoration: none;
+    color: #333333; /* Text color for contrast */
+    margin-right: 10px;
+    font-weight: bold; /* Make text bold */
+    font-size: 16px; /* Adjust font size */
+}
+
+.call-to-action a:hover {
+    color: #000; /* Black text */
+    background-color: #007bff; /* Blue background */
+    border-radius: 20px; /* Keep curvy edges for call-to-action */
+}
+
+.hero {
+    background-color: #f0f0f0;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-content .book-now {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    overflow: hidden; /* Ensures the image doesn't overflow unexpectedly */
+    margin: 0; /* Removes any margin that might create gaps */
+    padding: 0; /* Removes any padding that might create gaps */
+}
+
+.hero img {
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.about {
+    padding: 40px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.about-content img {
+    max-width: 100%;
+    width: 550px; 
+    height: 550;
+    margin: 20px auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.about-text {
+    max-width: 600px; 
+    margin: 20px; 
+}
+.about-content .about-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.about-content .about-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+#other-pujas {
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  #other-pujas h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .puja-cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .puja-card {
+    width: 30%;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .puja-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .puja-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .puja-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  #contact {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 320px;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content .book-now {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  button {
+    text-decoration: none;
+    color: #333; 
+    background-color: transparent; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px;
+    font-size: 16px; 
+    transition: all 0.3s ease;
+}
+
+/* Hover Effects */
+a:hover,
+button:hover {
+    color: #000; 
+    background-color: #007bff; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
